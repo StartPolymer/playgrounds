@@ -1,5 +1,5 @@
 {
-  "name": "startpolymer-playground-1",
+  "name": "startpolymer-playground-101",
   "version": "1.0.0",
   "description": "Declare simple properties.",
   "main": "index.html",
@@ -7,7 +7,7 @@
     "@polymer/polymer": "^3.0.0-pre.12"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.6.1"
+    "parcel-bundler": "^1.0.0"
   },
   "keywords": [
     "Polymer",

@@ -1,7 +1,11 @@
 # StartPolymer Playgrounds
 
-Get started with Polymer using free StartPolymer Playgrounds in online editor [CodeSandbox](https://codesandbox.io).
+Get started with Polymer using free playgrounds in online editor [CodeSandbox](https://codesandbox.io).
 
-## Polymer 3.0
+## 1. Properties
 
-- [StartPolymer Playground #1](https://codesandbox.io/s/github/StartPolymer/playgrounds/tree/master/v3/1) - Declare simple properties.
+- [#101](https://codesandbox.io/s/github/StartPolymer/playgrounds/tree/master/v3/101) - Declare simple properties.
+
+---
+
+Inspired by ["Componentizing" documentation](https://medium.com/@katejeffreys/componentizing-documentation-86b1d344430e).
