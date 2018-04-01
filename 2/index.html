@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- import polyfills -->
+  <script src="https://unpkg.com/@webcomponents/webcomponentsjs@1.1.0/custom-elements-es5-adapter.js"></script>
+  <script src="https://unpkg.com/@webcomponents/webcomponentsjs@1.1.0/webcomponents-loader.js"></script>
+  <!-- import elements -->
+  <script type="module" src="custom-element.js"></script>
+</head>
+
+<body>
+  <h1>StartPolymer Playground #2</h1>
+  <h2>Declare and initialize simple properties</h2>
+  <b>Initialize properties from <code>properties</code> getter</b>
+
+  <custom-element></custom-element>
+
+  <br/><b>Initialize properties from attributes in markup</b>
+
+  <custom-element
+      my-boolean
+      my-string="Hello World"
+      my-number="3"
+      my-date="02-01-2018"></custom-element>
+</body>
+
+</html>

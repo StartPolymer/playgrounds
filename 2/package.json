@@ -1,0 +1,14 @@
+{
+  "name": "startpolymer-playground-2",
+  "version": "1.0.0",
+  "description": "Declare simple properties.",
+  "main": "index.html",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0-pre.12"
+  },
+  "keywords": [
+    "Polymer",
+    "StartPolymer",
+    "Playground"
+  ]
+}
