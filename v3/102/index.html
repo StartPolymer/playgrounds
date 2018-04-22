@@ -21,9 +21,19 @@
   <h3>Initialize values from attributes in markup</h3>
 
   <custom-element
-      my-array="[1,2,3,4]"
-      my-object='{"firstName": "Joe", "lastName": "Play", "employeeNumber": 4321, "birthdate": "1900-08-24"}'>
+      id="customElement"
+      my-array="[1,2,3,4]">
   </custom-element>
+
+  <script>
+    let customElement = document.getElementById('customElement');
+    customElement.myObject = {
+      'firstName': 'Joe',
+      'lastName': 'Play',
+      'employeeNumber': 4321,
+      'birthdate': '2000-08-24'
+    };
+  </script>
 
   <hr>
   <a href="https://github.com/StartPolymer/playgrounds" target="_blank">StartPolymer Playgrounds</a>

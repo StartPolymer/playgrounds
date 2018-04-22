@@ -30,7 +30,7 @@ class CustomElement extends PolymerElement {
           'firstName': 'Josef',
           'lastName': 'Poly',
           'employeeNumber': 1234,
-          'birthdate': new Date('2000-04-16')
+          'birthdate': new Date('1900-04-16')
         }; }
       }
     }
