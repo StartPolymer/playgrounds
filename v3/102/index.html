@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Import polyfills -->
+  <!-- CodeSandbox compile code to ES5. Playground needs to load polyfill custom-elements-es5-adapter. -->
+  <script src="https://unpkg.com/@webcomponents/webcomponentsjs@1.1.1/custom-elements-es5-adapter.js"></script>
+  <!-- Loader that dynamically loads the minimum polyfill bundle, using feature detection. -->
+  <script src="https://unpkg.com/@webcomponents/webcomponentsjs@1.1.1/webcomponents-loader.js"></script>
+  <!-- Import elements -->
+  <script type="module" src="custom-element.js"></script>
+</head>
+
+<body>
+  <h1>StartPolymer Playground #102</h1>
+  <h2>Declare and initialize complex properties</h2>
+  <h3>Initialize values from defaults in properties getter</h3>
+
+  <custom-element></custom-element>
+
+  <h3>Initialize values from attributes in markup</h3>
+
+  <custom-element
+      my-array="[1,2,3,4]"
+      my-object='{"firstName": "Joe", "lastName": "Play", "employeeNumber": 4321, "birthdate": "1900-08-24"}'>
+  </custom-element>
+
+  <a href="https://github.com/StartPolymer/playgrounds">StartPolymer Playgrounds</a>
+</body>
+
+</html>

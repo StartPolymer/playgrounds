@@ -1,0 +1,17 @@
+{
+  "name": "startpolymer-playground-102",
+  "version": "1.0.0",
+  "description": "Declare complex properties.",
+  "main": "index.html",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0-pre.12"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.0.0"
+  },
+  "keywords": [
+    "Polymer",
+    "StartPolymer",
+    "Playground"
+  ]
+}
