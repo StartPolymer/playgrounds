@@ -63,4 +63,4 @@ class CustomElement extends PolymerElement {
 }
 
 // Register the new element with the browser.
-customElements.define('custom-element', CustomElement);
+window.customElements.define('custom-element', CustomElement);
